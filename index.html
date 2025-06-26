@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allerta&family=Grandiflora+One&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/logo-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>L'Antipasto City</title>
+  </head>
+  <body>
+    <!-- ----------------------Preloader for text logo---------------------------->
+     <div id="preloader" class="preloader-overlay">
+      <div class="coffee-bounce">
+        <h1 class="icon">L'Antipasto</h1>
+      </div>
+    </div>
+    <!-- ----------------------Navbar---------------------------- -->
+    <div id="navbar">
+      <div class="logo">
+        <h1><a href="#home">L'Antipasto city</a></h1>
+      </div>
+      <img
+        class="navbar-icon"
+        src="assets/navbar-icon.png"
+        alt="Menu"
+        onclick="toggleNav()"
+      />
+      <div class="sections">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#timings">Timings</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#container">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- -----------------------Home---------------------------- -->
+    <div id="home">
+      <h1>L'Antipasto</h1>
+      <h2>City</h2>
+    </div>
+    <!-- ------------------------About-------------------------- -->
+    <div id="about">
+      <div class="about-text">
+        <h1>Welcome to L'Antipasto City</h1>
+        <p>
+          Your destination for authentic Italian dining in the heart of London. Located at 2 Botolph Alley, just moments from the iconic Tower of London, our restaurant blends traditional Italian flavors with a contemporary twist.
+
+          From handcrafted antipasti and fresh pasta to rich, slow-cooked mains and indulgent desserts, every dish is prepared with passion and premium ingredients. Whether you're stopping by for a business lunch, a relaxed dinner, or a special occasion, our warm, elegant setting and attentive service create the perfect dining experience.
+
+          At L’Antipasto City, we bring the heart of Italy to the city , one plate at a time.
+        </p>
+      </div>
+      <div class="about-image">
+        <div class="front-image"></div>
+        <div class="back-image"></div>
+      </div>
+    </div>
+    <!-- ------------------------Timings----------------------------- -->
+     <div id="timings">
+      <h1 class="timing-title">Horaires d'ouverture</h1>
+      <div class="times">
+        <div class="mon-fri">
+          <h2>Monday - Friday</h2>
+          <h1>11.30 -<br />21.30</h1>
+        </div>
+        <div class="separation"></div>
+        <div class="sat-sun">
+          <h2>Saturday - Sunday</h2>
+          <h1>Closed</h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------Menu-------------------------------- -->
+    <div id="menu">
+      <h1 class="menu-title">Menu</h1>
+      <div class="drinks">
+        <div class="items coffee">
+          <h1>Café</h1>
+          <ul>
+            <li>
+              <span class="item-name">Espresso</span><span class="dots"></span
+              ><span class="item-price">2.50</span>
+            </li>
+            <li>
+              <span class="item-name">Ristretto</span><span class="dots"></span
+              ><span class="item-price">2.50</span>
+            </li>
+            <li>
+              <span class="item-name">Espresso Macchato</span
+              ><span class="dots"></span><span class="item-price">2.50</span>
+            </li>
+            <li>
+              <span class="item-name">Lungo</span><span class="dots"></span
+              ><span class="item-price">2.90</span>
+            </li>
+            <li>
+              <span class="item-name">Lungo Macchato</span
+              ><span class="dots"></span><span class="item-price">2.90</span>
+            </li>
+            <li>
+              <span class="item-name">Double Espresso</span
+              ><span class="dots"></span><span class="item-price">3.90</span>
+            </li>
+            <li>
+              <span class="item-name">Flat White</span><span class="dots"></span
+              ><span class="item-price">5.00</span>
+            </li>
+          </ul>
+        </div>
+        <div class="items tea">
+          <h1>Thé</h1>
+          <ul>
+            <li>
+              <span class="item-name">Matcha</span><span class="dots"></span
+              ><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Chai Masala</span
+              ><span class="dots"></span><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Chocolat Chaud</span
+              ><span class="dots"></span><span class="item-price">6.00</span>
+            </li>
+            <li>
+              <span class="item-name">Thé/ infusions</span
+              ><span class="dots"></span><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Softs</span><span class="dots"></span
+              ><span class="item-price">4.00</span>
+            </li>
+            <li>
+              <span class="item-name">Eaux</span><span class="dots"></span
+              ><span class="item-price">3.00</span>
+            </li>
+            <li>
+              <span class="item-name">Jus d'orange</span
+              ><span class="dots"></span><span class="item-price">5.00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="food">
+        <div class="items meal">
+          <h1>Boissons</h1>
+          <ul>
+            <li>
+              <span class="item-name">Jus d'orange</span
+              ><span class="dots"></span><span class="item-price">5.00</span>
+            </li>
+            <li>
+              <span class="item-name">Thé</span><span class="dots"></span
+              ><span class="item-price">4.00</span>
+            </li>
+            <li>
+              <span class="item-name">Chai Tea Latte</span
+              ><span class="dots"></span><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Matcha Latte</span
+              ><span class="dots"></span><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Chocolat Vennois</span
+              ><span class="dots"></span><span class="item-price">5.50</span>
+            </li>
+            <li>
+              <span class="item-name">Chocolat Blanc Vennois</span
+              ><span class="dots"></span><span class="item-price">5.50</span>
+            </li>
+          </ul>
+        </div>
+        <div class="items bread">
+          <h1>Frapés</h1>
+          <ul>
+            <li>
+              <span class="item-name">Cafe</span><span class="dots"></span
+              ><span class="item-price">4.90</span>
+            </li>
+            <li>
+              <span class="item-name">Latte</span><span class="dots"></span
+              ><span class="item-price">5.50</span>
+            </li>
+            <li>
+              <span class="item-name">Moccaccino</span><span class="dots"></span
+              ><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Moccaccino Blanc</span
+              ><span class="dots"></span><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Caramelo</span><span class="dots"></span
+              ><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Vanille</span><span class="dots"></span
+              ><span class="item-price">5.90</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------Gallery------------------------------ -->
+    <div id="container">
+      <div class="header">
+        <h1>CULINARY ARTISTRY</h1>
+        <p>A visual celebration of flavors</p>
+      </div>
+      <div class="gallery" id="gallery">
+        <!-- Images will be populated by JavaScript -->
+      </div>
+    </div>
+    <!-- -----------------------Contact------------------------------ -->
+     <div id="contact">
+      <div class="address">
+        <div class="logo-end">
+        <h1 class="logo-text">L'Antipasto <br>City</h1>
+      </div>
+        <span
+          ><img
+            class="location-icon"
+            src="assets/location-icon.png"
+            alt="location-icon"
+          />
+          2-4, Octave House, 2 Botolph Alley,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;London EC3R 8DR, UK</span
+        >
+        <a
+          href=https://www.google.com/maps/place/L%E2%80%99Antipasto+City/@51.5101982,-0.0842167,17z/data=!4m15!1m8!3m7!1s0x487603522f66ab13:0x683f5aaafcbaee2b!2sL%E2%80%99Antipasto+City!8m2!3d51.5101514!4d-0.0843925!10e9!16s%2Fg%2F1yh9tzk6_!3m5!1s0x487603522f66ab13:0x683f5aaafcbaee2b!8m2!3d51.5101514!4d-0.0843925!16s%2Fg%2F1yh9tzk6_?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D
+          ><br />View on map</a
+        >
+      </div>
+      <div class="contact-us">
+        <h1>Contact Us</h1>
+        <p>
+          For any inquiries or feedback, please do not hesitate to contact us by email or telephone at the following address:
+        </p>
+        <div>
+          <img src="assets/phone-icon.png" alt="phone-icon" />
+          <a href="tel:+442072837000">+44 20 7283 7000</a>
+        </div>
+        <div>
+          <img src="assets/mail-icon.png" alt="mail-icon" />
+          <a href="mailto:lantipastocity@hotmail.co.uk">lantipastocity@hotmail.co.uk</a>
+        </div>
+        <div class="instagram-link">
+          <img
+            class="instagram-icon"
+            src="assets/instagram.png"
+            alt="Instagram Icon"
+          />
+          <a href="https://www.instagram.com">Instagram </a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- -----------------------Script------------------------------- -->
+    <script src="script.js"></script>
+  </body>
+</html>
